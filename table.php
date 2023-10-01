@@ -16,7 +16,7 @@
             <td> <?php echo $team['league']; ?> </td>
             <td> <?php echo $team['last-time-champions']; ?> </td>
             <td> <?php echo $team['city']; ?> </td>
-            <td> <?php echo $team['url']; ?> </td>
+            <td><a href="<?php echo $team['url']; ?>"> <?php echo $team['url']; ?></a></td>
         </tr>
 
     <?php endforeach; ?>
