@@ -1,7 +1,7 @@
 <?php require __DIR__ . '/data.php'; ?>
 
 <table>
-    <tr>
+    <tr class="tablehead">
         <th>Team</th>
         <th>League</th>
         <th>Last-time-champions</th>

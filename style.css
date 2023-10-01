@@ -1,3 +1,36 @@
+* {
+  text-decoration: none;
+  color: #000000;
+}
+
 body {
   background-color: beige;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+table {
+  background-color: white;
+  padding: 40px;
+}
+
+table,
+th,
+td {
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+td {
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.tablehead {
+  text-align: center;
+  padding-bottom: 10px;
 }
