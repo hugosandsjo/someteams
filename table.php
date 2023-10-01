@@ -12,7 +12,7 @@
     <?php foreach ($teams as $key => $team) : ?>
 
         <tr>
-            <td> <?php echo count($team); ?> </td>
+            <td> <?php echo $key; ?> </td>
             <td> <?php echo $team['league']; ?> </td>
             <td> <?php echo $team['last-time-champions']; ?> </td>
             <td> <?php echo $team['city']; ?> </td>
