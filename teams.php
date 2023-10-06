@@ -2,4 +2,8 @@
 
 require __DIR__ . '/data.php';
 
-echo count($teams) . ' teams in total.';
+?>
+
+<section class="header">
+    <h2> <?php echo count($teams) ?></h2><?php echo ' teams in total'; ?>
+</section>
