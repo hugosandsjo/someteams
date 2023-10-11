@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/header.php';
+require __DIR__ . '/data.php';
 require __DIR__ . '/teams.php';
 require __DIR__ . '/citys.php';
 require __DIR__ . '/table.php';

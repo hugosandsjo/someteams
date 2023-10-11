@@ -1,5 +1,3 @@
-<?php require __DIR__ . '/data.php'; ?>
-
 <section class="main">
     <table>
         <thead>
